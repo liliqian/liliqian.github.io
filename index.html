@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<ul id="contextmenu" class="contextmenu"></ul> <!--右键菜单-->
+		<div id="frame_all" class="clearfix">
+			<div id="frame_nav">
+				<div id="nav_l" class="fl">
+					<h1 class="bg logo fl"></h1>
+					<ul class="nav_list fl">
+						<li class="fl">
+							<a href="">主页</a>
+						</li>
+						<li id="Skydrive"class="pan fl">
+							<a href="" id="text">网盘</a>
+							<s  id="bg"class="bg icon_down"></s>
+							<ul id="classify" class="click_else">
+								<li class="fl">
+									<s class="bg icon1"></s>
+									<p>网盘</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon2"></s>
+									<p>通讯录</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon3"></s>
+									<p>通话记录</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon4"></s>
+									<p>短信</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon5"></s>
+									<p>相册</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon6"></s>
+									<p>文章</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon7"></s>
+									<p>记事本</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon8"></s>
+									<p>手机找回</p>
+								</li>
+								<li class="fl">
+									<s class="bg icon9"></s>
+									<p>云直播</p>
+								</li>
+							</ul>
+						</li>
+						<li class="fl">
+							<a href="">分享</a>
+							<s class="bg"></s>
+						</li>
+						<li class="fl">
+							<a href="">应用</a>
+						</li>
+					</ul>
+				</div>
+				<div id="nav_r" class="fr">
+					<a href="" id="discount" class="fl sale">超级会员限时六折，限时三天</a>
+					<ul id="infor" class="fl infor">
+						<li class="fl search">
+							<form action="https://www.baidu.com/s" method="get" target="_blank" id="form" class="fl">
+								<input type="text" name="wd" value="搜索你的文件" autocomplete="off" id="inps"/>
+							</form>
+							<a href="javascript:;" id="submit" class="fl">搜索</a>
+							<span class="line fl"></span>
+							<ul id="search_content"></ul>
+						</li>
+						<li id="member" class="fl member">
+							<a href="" class="bg crown fl"></a>
+							<a class="fl name">李黎倩</a>
+							<s class="bg fl"></s>
+							<span class="line fl"></span>
+							<ul id="personal_data" class="data">
+								<li>个人资料</li>
+								<li>购买容量</li>
+								<li>云冲印</li>
+								<li class="string"></li>
+								<li>退出</li>
+								<li class="triangle"></li>
+							</ul>
+						</li>
+						<li class="fl center">
+							<a href="" class="fl">会员中心</a>
+							<span class="line fl"></span>
+						</li>
+						<li class="fl download">
+							<a href="" class="fl">客户端下载</a>
+							<span class="line fl"></span>
+						</li>
+						<li class="fl notice">
+							<a href="" class="fl">通知</a>
+							<span class="line fl"></span>
+						</li>
+						<li id="more" class="fl more">
+							<a href="" class="fl">更多</a>
+							<s class="bg fl"></s>
+							<ul id="detail" class="data">
+								<li>开启https模式</li>
+								<li class="string"></li>
+								<li>移动开放平台</li>
+								<li class="string"></li>
+								<li>收藏工具</li>
+								<li>版本更新</li>
+								<li>帮助中心</li>
+								<li>问题反馈</li>
+								<li>服务协议</li>
+								<li>权利声明</li>
+								<li class="triangle  left"></li>
+							</ul>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			<div id="frame_aside" class="fl">
+				<ul id="menu_list">
+					<li class="icon1">
+						<s class="bg "></s>
+						<span>全部文件</span>
+					</li>
+					<li class="icon2">
+						<s class="bg"></s>
+						<span>图片</span>
+					</li>
+					<li class="icon3">
+						<s class="bg"></s>
+						<span>文档</span>
+					</li>
+					<li class="icon4">
+						<s class="bg"></s>
+						<span>视频</span>
+					</li>
+					<li class="icon5">
+						<s class="bg"></s>
+						<span>种子</span>
+					</li>
+					<li class="icon6"> 
+						<s class="bg"></s>
+						<span>音乐</span>
+					</li>
+					<li class="icon7">
+						<s class="bg"></s>
+						<span>其它</span>
+					</li>
+					<li class="string"></li>
+					<li class="icon8">
+						<s class="bg"></s>
+						<span>我的分享</span>
+					</li>
+					<li class="string"></li>
+					<li class="icon9">
+						<s class="bg "></s>
+						<span>回收站</span>
+					</li>
+				</ul>
+				<div id="side_optlist">
+					<ul id="side_options" class="clearfix">
+						<li class="icon1">
+							<a href="">
+								<s class="bg"></s>
+								<span>云管家</span>
+							</a>
+						</li>
+						<li class="icon2">
+							<a href="">
+								<s class="bg"></s>
+								<span>Android</span>
+							</a>
+						</li>
+						<li class="icon3">
+							<a href="">
+								<s class="bg"></s>
+								<span>iphone</span>
+							</a>
+						</li>
+						<li class="icon4">
+							<a href="">
+								<s class="bg"></s>
+								<span>更多</span>
+							</a>
+						</li>
+					</ul>
+					<ul id="option_panel" class="clearfix">
+						<li class="icon1">
+							<a href="">
+								<s class="bg"></s>
+								<span>WP</span>
+							</a>
+						</li>
+						<li class="icon2">
+							<a href="">
+								<s class="bg"></s>
+								<span>ipad</span>
+							</a>
+						</li>
+						<li class="icon3">
+							<a href="">
+								<s class="bg"></s>
+								<span>Mac同步盘</span>
+							</a>
+						</li>
+						<li class="icon4">
+							<a href="">
+								<img src="img/app_linkl.png"/>
+								<strong>扫描二维码下载</strong>
+							</a>
+						</li>
+						<li class="arrow bg"></li>
+					</ul>
+				</div>
+				<div id="capacity">
+					<span class="quota"></span>
+					<div class="remaining">
+						<p class="left fl">
+							<b>77.9M</b>/<span class="total">2054G</span>
+						</p>
+						<p class="right fr dilatation">扩容</p>
+					</div>
+				</div>
+			</div>
+			<div id="frame_main" class="fl">
+				<div id="bar" class="clearfix">
+					<ul id="button_box" class="button_box fl">
+						<li id="creatnewfile" class="sec fl bg">
+							<s class="icon2 bg"></s>
+							<span >新建文件夹</span>
+						</li>
+						<li class="thi fl bg">
+							<s class="icon3 bg"></s>
+							<span>离线下载</span>
+						</li>
+						<li class="fou fl bg">
+							<s class="icon4 bg"></s>
+							<span>我的设备</span>
+							<div class="hide_box">
+								<p>推送任务列表</p>
+								<p>添加设备</p>
+							</div>
+						</li>
+					</ul>
+					<div class="list_switch fr">
+						<a href="" class="icon1 bg"></a>
+						<a href="" class="icon2 bg"></a>
+					</div>
+				</div>
+				<div id="module_list"><!--以下为吊顶以下区域-->
+					<div id="module_num" class="module_num clearfix"><!--以下为文件加载总数一栏-->
+						<span class="fl" id="allfile">全部文件</span>
+						<a href="javascript:;" id="upperlevel">返回上一级</a>
+						<a href="javascript:;" id="firstlevel">全部文件</a>
+						<span id="loadnum" class="fr right">已全部加载，共3个</span>
+					</div>
+					<div id="list_header" class="list_header"><!--文件夹操作总栏-->
+						<ul id="list_cols" class="list_cols">
+							<li class="fir">
+								<div class="check_box">
+									<span id="check_icon" class="bg frame" ></span>
+								</div>
+								<span class="text" id="file_name">文件名</span>
+							</li>
+							<li id="file_operate" class="sec">
+								<a href="" class="bg share">
+									<s class="bg icon1"></s>
+									<span>分享</span>
+								</a>
+								<a href="" class="bg download">
+									<s class="bg icon2"></s>
+									<span>下载</span>
+								</a>
+								<a href="javascript:;" id="delete_button" class="bg delete">
+									<s class="bg icon3"></s>
+									<span>删除</span>
+								</a>
+								<a href="" class="bg Cloud_device">
+									<s class="bg icon4"></s>
+									<span>推送到云设备</span>
+								</a>
+								<a href="javascript:;" id="rename" class="bg">
+									<span>重命名</span>
+								</a>
+								<a href="" class="bg">
+									<span>复制到</span>
+								</a>
+								<a href="" class="bg">
+									<span>移动到</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="file_container" class="file_container clearfix">	
+		        	<!--<div class="fileBox">
+			            <div class="fileinner">
+			            	<div class="fileImage bg"></div>
+			            	<s class="checkbox bg"></s>
+			            </div>
+			            <p class="fileName"></p>
+			            <div class="new_dir_item  new_file" >
+			            	<input type="text" value="新建文件夹" class="new_dir_box"/>
+			            	<span class="new_dir_sure  bg"></span>
+			            	<span class="new_dir_cancel bg"></span>
+			            </div>
+		        	</div>-->
+				</div>
+			</div>
+			<!--<div id="crash" class="collision"></div>-->
+		</div>
+	</body>
+	<script src="js/data.js"></script>
+	<script src="js/tool.js"></script>
+	<script src="JQ/jquery-2.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>
